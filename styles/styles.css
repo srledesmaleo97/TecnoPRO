@@ -327,3 +327,25 @@ width: 90px;
     padding: 10px;
 }
 
+.contenedorContacto{
+    width: 100%;
+    max-width: 100%; 
+    display: grid;
+   grid-template-columns: 0.5fr 0.5fr  0.5fr;
+   grid-template-rows:  0.5fr 0.5fr 0.5fr; 
+   grid-template-areas: "header header header"
+                        "form form form"
+                        "footer footer footer";
+}
+
+.contenedorContacto .header{
+    grid-area: header;
+}
+
+.contenedorContacto .contenidoPrincipal{
+    grid-area: form;
+}
+
+.contenedorContacto .piePagina{
+    grid-area: footer;
+}

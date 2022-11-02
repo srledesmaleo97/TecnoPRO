@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <header class="header">
-
+        <div class="contenedorContacto">
+         <header class="header">
         <div class="logo">
               <a href="../index.html"><img src="../img/logoo.png" alt="logo"></a>
         </div>
@@ -24,20 +24,34 @@
                  </ul>
             </nav>
                      <a href="contacto.html" class="btn"><button>contacto</button></a>
+           
   </header>
 
-    <main>
-        
+    <main  class="contenidoPrincipal">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">correo elecetronico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">      
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputName1" class="form-label">Nombre y Apellido</label>
+              <input type="text" class="form-control" id="exampleInputName1">
+            </div>
+            <div class="input-group">
+                <span class="input-group-text">Deja tu mensaje</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Acepto terminos
+                </label>
+              </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
     </main>
-
-    <section>
-
-    </section>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.0151479720707!2d-58.712562785229736!3d-34.70479787035939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc04912e12c0f%3A0xd3b6e309666972f4!2sRoffo%20745%2C%20B1716BZQ%20Libertad%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1663555508358!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
     <footer class="piePagina">
-        <p>© 2022 TecnoPRO S. A. All Rights Reserved.</p>
            
         <div class="redes">
             <img class="redesImg" src="../img/facebook.png" alt="facebook">
@@ -46,6 +60,8 @@
         <div class="whatsapp">
             <img class="whatImg" src="../img/whatsapp.png" alt="whatsapp">
         </div>
+        <p>© 2022 TecnoPRO S. A. All Rights Reserved.</p>
     </footer>
+   </div> 
 </body>
 </html>
