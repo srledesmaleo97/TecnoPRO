@@ -89,14 +89,6 @@ body{
 }
 
 
-.teclado{
-    height: 500px;
-    margin-top: 50px;
-    margin-left: 300px;
-    margin-bottom: 30px;
-    border: solid 4px black;
-}
-
 .galeriaProductos img{
     height: 200px;
     margin: 10px 20px 50px 50px;
@@ -326,20 +318,38 @@ width: 90px;
     margin: 100px;
     padding: 10px;
 }
-
+/* tamaño celular*/
 .contenedorContacto{
-    width: 100%;
-    max-width: 100%; 
     display: grid;
-   grid-template-columns: 0.5fr 0.5fr  0.5fr;
+   grid-template-columns: 1fr;
    grid-template-rows:  0.5fr 0.5fr 0.5fr; 
-   grid-template-areas: "header header header"
-                        "form form form"
-                        "footer footer footer";
+   grid-template-areas: "header"
+                        "form"
+                        "footer";
 }
 
-.contenedorContacto .header{
+.contenedorContacto .headerContacto{
     grid-area: header;
+    background-color: #050f14;
+}
+
+.contenedorContacto ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorContacto li{
+    list-style-type: none;
+    padding: 8px;
+}
+
+.contenedorContacto .logoCon img{
+    width: 100px;
+ 
+}
+.contenedorContacto li a{
+ font-size: 16px;
+ text-decoration: none;
 }
 
 .contenedorContacto .contenidoPrincipal{
@@ -349,4 +359,125 @@ width: 90px;
 .contenedorContacto .piePagina{
     grid-area: footer;
 }
+ .redesCon{
+width: 20px;
+display:flex ;
+}
 
+.piePagina p{
+    font-size: 20px;
+}
+.headerContacto .lik a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.headerContacto .lik a:hover{
+    color: #008cff;
+}
+
+/*tablet*/
+@media screen and (min-width:768px) {
+    .contenedorContacto{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "header header header"
+                              "main main main"
+                              "footer footer footer";
+    }
+    .contenedorContacto .headerContacto{
+        grid-area: header;
+    }
+    
+    .contenedorContacto .contenidoPrincipal{
+        grid-area: main;
+    }
+    
+    .contenedorContacto .piePagina{
+        grid-area: footer;
+    }
+    .contenedorContacto li a{
+        font-size: 28px;
+        text-decoration: none;
+       }
+       .contenedorContacto .logoCon img{
+        width: 190px;
+     
+    }   
+    .headerContacto .lik a {
+        font-size: 30px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .headerContacto .lik a:hover{
+        color: #008cff;
+    }
+}
+/*destok*/
+
+@media screen and (min-width: 1024px) {
+    .contenedorContacto{
+       grid-template-columns: 0.5fr 0.5fr  0.5fr;
+       grid-template-rows:  0.5fr 0.5fr 0.5fr; 
+       grid-template-areas: "header header header"
+                            "main main main"
+                            "footer footer footer";
+    }
+    .contenedorContacto .headerContacto{
+        grid-area: header;
+        background-color: #050f14;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        height: 285px;
+        padding: 5px 10px;  
+    }
+    
+    .contenedorContacto .contenidoPrincipal{
+        grid-area: main;
+    }
+    
+    .contenedorContacto .piePagina{
+        grid-area: footer;
+    }
+    .contenedorContacto li a{
+        font-size: 28px;
+        list-style: none;
+        text-decoration: none;
+       }
+       .contenedorContacto .logoCon img{
+        width: 190px;
+        cursor: pointer;
+        
+     
+    }   
+
+    
+    .headerContacto .logoCon{
+        cursor: pointer;
+    }
+    
+    .headerContacto .logoCon img{
+        height: 280px;
+        width: auto;
+        transition: all;
+    }
+    
+    .headerContacto .logoCon img:hover{
+        transform: scale(1.2);
+    }
+    
+    .headerContacto .link ul li{
+       list-style: none;
+    
+    }
+    .headerContacto .lik a {
+        font-size: 30px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .headerContacto .lik a:hover{
+        color: #008cff;
+    }
+    
+}
