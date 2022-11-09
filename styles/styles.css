@@ -33,7 +33,7 @@ body{
     transform: scale(1.2);
 }
 
-.header .link ul li{
+.header .link ul {
    list-style: none;
 
 }
@@ -180,22 +180,19 @@ width: 90px;
 
 
 .contenedorNovedades{
-    width: 90%;
-    max-width: 100px;
-    margin: 0px;
+    width: 100%;
+    max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-template-rows: repeat(3, 0.5fr);
     grid-template-areas: "header header header header"
                          " contenido contenido contenido contenido"
-                         "producto1 producto2 producto3 producto4"
                          "footer footer footer footer";
    
 } 
 
 .contenedorNovedades .header{
-    background-color: rgb(22, 12, 12);
-    color: #fff;
+    background-color: #050f14;
     grid-area: header;
 }
 
@@ -203,29 +200,11 @@ width: 90px;
        grid-area: contenido;
  }
 
- .contenedorNovedades .produto1 img,
- .contenedorNovedades .produto2 img,
- .contenedorNovedades .produto3 img,
- .contenedorNovedades .produto4 img
- {
-    height: 30%;
-    display: flex;
-  
- }
 
- .contenedorNovedades .produto1 {
-    grid-area: producto1;
+ .contenedorNovedades .produto {
+    grid-area: producto;
  }
- .contenedorNovedades .produto2 {
-    grid-area: producto2;
- }
- .contenedorNovedades .produto3{
-    grid-area: producto3;
- }
- .contenedorNovedades .produto4 {
-    grid-area: producto4;
- }
-
+ 
  .piePagina{
     grid-area: footer;
  }

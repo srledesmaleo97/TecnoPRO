@@ -1,8 +1,30 @@
-h1 {
-  color: aqua; }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px; }
 
-h2 {
-  color: beige; }
+body {
+  background-color: #f0f8ff; }
 
-h3 {
-  color: black; }
+/*.header {
+  background-color: #050f14;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 285px;
+  padding: 5px 10px; }
+  .header .logo {
+    cursor: pointer; }
+    .header .logo img {
+      height: 280px;
+      width: auto;
+      transition: all; }
+      .header .logo img:hover {
+        transform: scale(1.2); }
+      .header .logo img .link ul {
+        list-style: none; }
+        .header .logo img .link ul li {
+          display: inline-block;
+          padding: 0px 20px; }
