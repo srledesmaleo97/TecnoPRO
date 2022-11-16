@@ -8,23 +8,60 @@
 body {
   background-color: #f0f8ff; }
 
-/*.header {
+.header {
   background-color: #050f14;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 285px;
-  padding: 5px 10px; }
+  align-items: center; }
+  .header .link ul {
+    list-style: none; }
+    .header .link ul li {
+      display: inline-block;
+      padding: 0px 20px; }
+      .header .link ul li:hover {
+        transform: scale(1.1); }
+      .header .link ul li a {
+        font-size: 30px;
+        color: #fff;
+        text-decoration: none; }
+        .header .link ul li a:hover {
+          color: #008cff; }
   .header .logo {
     cursor: pointer; }
     .header .logo img {
       height: 280px;
       width: auto;
       transition: all; }
-      .header .logo img:hover {
-        transform: scale(1.2); }
-      .header .logo img .link ul {
-        list-style: none; }
-        .header .logo img .link ul li {
-          display: inline-block;
-          padding: 0px 20px; }
+    .header .logo:hover {
+      transform: scale(1.2); }
+  .header .btn button {
+    font-weight: 700;
+    color: yellow;
+    padding: 9px 25px;
+    background-color: #0600a7;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; }
+    .header .btn button:hover {
+      background-color: #0601a3;
+      color: #e5ff00;
+      transform: scale(1.1); }
+
+/*footer*/
+.piePagina {
+  background-color: black;
+  grid-area: footer;
+  height: 200px;
+  margin-top: auto; }
+  .piePagina .redesImg {
+    width: 120px;
+    margin: 5px; }
+  .piePagina .whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 20px; }
+    .piePagina .whatsapp .whatImg {
+      width: 90px; }
+  .piePagina p {
+    color: white; }
