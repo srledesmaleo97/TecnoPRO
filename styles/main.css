@@ -111,6 +111,33 @@
     height: 200px;
     margin-top: auto; }
 
+.contenedorNosotros {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.2fr 1fr 0.2fr 0.5fr;
+  grid-template-areas: "header header" "contenidoPrincipal contenidoPrincipal" "seccion seccion" "footer footer"; }
+  .contenedorNosotros .header {
+    grid-area: header; }
+  .contenedorNosotros .nosotrosMenu {
+    grid-area: contenidoPrincipal; }
+    .contenedorNosotros .nosotrosMenu img {
+      height: 200px;
+      margin: 10px 20px 50px 50px;
+      border: solid 3px black; }
+  .contenedorNosotros .sectionNos {
+    grid-area: seccion; }
+    .contenedorNosotros .sectionNos .iframe {
+      height: 310px;
+      width: 408px;
+      border: 1px black solid;
+      margin-left: 35%;
+      margin-top: 50px;
+      margin-bottom: 52px; }
+  .contenedorNosotros .piePagina {
+    grid-area: footer; }
+
 * {
   margin: 0px;
   padding: 0px;
