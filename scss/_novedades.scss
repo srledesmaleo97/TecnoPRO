@@ -1,0 +1,46 @@
+
+.contenedorNovedades{
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 0.2fr 0.5fr 0.1fr;
+    grid-template-areas: "header header"
+                         " contenido contenido"
+                         "footer footer";
+                         .header{
+                            background-color: #050f14;
+                            grid-area: header;
+                        }
+                        .contenido{
+                            grid-area: contenido;
+                            .contenedorNovedad{
+                                display: flex;
+                                margin: 4%;
+                               
+                                .uniT{
+                                    margin-right: 6%;
+                                    border: 4px black solid;
+                                 }
+                                 .parlantes{
+                                    margin-right: 6%;
+                                    border: 4px black solid;
+                                }
+                            }
+                            h2{
+                                font-family: 'Rubik Mono One', sans-serif;
+                                margin: 6%;
+                                font-size: 42px;
+                            }
+                            p{
+                                margin: 5%;
+                            }
+                        }
+                        .piePagina{
+                            grid-area: footer;
+                            height: 200px;
+                            margin-top: auto;
+                        }
+
+   
+} 

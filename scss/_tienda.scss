@@ -1,0 +1,34 @@
+
+.contenedorTienda{
+    width: 100%;
+    max-width: 100%; 
+    display: grid;
+   grid-template-columns: 0.5fr 0.5fr  0.5fr;
+   grid-template-rows:  0.2fr 1fr 0.5fr; 
+   grid-template-areas: "header header header"
+                        "galeria galeria galeria"
+                        "footer footer footer";
+                        .header{
+                            grid-area: header;
+                        }
+                        .tiendaProductos{
+                            display: grid;
+                            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+                            grid-auto-rows: 320px;
+                            gap: 100px;
+                            padding: 40px;
+                            margin: 6px;
+                            grid-area: galeria;
+                            
+                         }
+                         .tiendaItem{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 100px;
+                            padding: 10px;
+                        }
+                         .piePagina{
+                            grid-area: footer;
+                        }
+}

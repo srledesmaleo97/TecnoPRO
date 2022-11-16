@@ -1,3 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&display=swap");
+.contenedorIndex {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.2fr 1fr 0.2fr 0.5fr;
+  grid-template-areas: "header header" "contenidoPrincipal contenidoPrincipal" "seccionIndex seccionIndex" "footer footer"; }
+  .contenedorIndex .header {
+    grid-area: header; }
+  .contenedorIndex .contenidoPrincipal {
+    grid-area: contenidoPrincipal; }
+    .contenedorIndex .contenidoPrincipal h1 {
+      padding: 50px;
+      font-family: 'Abril Fatface', cursive;
+      font-family: 'Alkalami', serif;
+      font-family: 'Anton', sans-serif; }
+      .contenedorIndex .contenidoPrincipal h1 .tituloPrincipal {
+        display: inline-block;
+        align-items: center; }
+    .contenedorIndex .contenidoPrincipal .parrafoPrin {
+      display: inline-block;
+      margin-left: 300px;
+      font-family: 'Abril Fatface', cursive;
+      font-family: 'Alkalami', serif;
+      font-family: 'Anton', sans-serif;
+      font-family: 'Be Vietnam Pro', sans-serif; }
+  .contenedorIndex .seccionIndex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: 320px;
+    gap: 40px;
+    padding: 40px;
+    grid-area: seccionIndex; }
+    .contenedorIndex .seccionIndex .indexItem {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #008cff;
+      border-radius: 4px;
+      transition: transform 0.3s ease-in-out;
+      border: solid 1px white; }
+      .contenedorIndex .seccionIndex .indexItem:hover {
+        filter: opacity(0.9);
+        transform: scale(1.04); }
+  .contenedorIndex .piePagina {
+    grid-area: footer;
+    height: 200px;
+    margin-top: auto; }
+    .contenedorIndex .piePagina p {
+      display: flex;
+      justify-content: center; }
+
+.contenedorTienda {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr  0.5fr;
+  grid-template-rows: 0.2fr 1fr 0.5fr;
+  grid-template-areas: "header header header" "galeria galeria galeria" "footer footer footer"; }
+  .contenedorTienda .header {
+    grid-area: header; }
+  .contenedorTienda .tiendaProductos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: 320px;
+    gap: 100px;
+    padding: 40px;
+    margin: 6px;
+    grid-area: galeria; }
+  .contenedorTienda .tiendaItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    padding: 10px; }
+  .contenedorTienda .piePagina {
+    grid-area: footer; }
+
+.contenedorNovedades {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 0.5fr 0.1fr;
+  grid-template-areas: "header header" " contenido contenido" "footer footer"; }
+  .contenedorNovedades .header {
+    background-color: #050f14;
+    grid-area: header; }
+  .contenedorNovedades .contenido {
+    grid-area: contenido; }
+    .contenedorNovedades .contenido .contenedorNovedad {
+      display: flex;
+      margin: 4%; }
+      .contenedorNovedades .contenido .contenedorNovedad .uniT {
+        margin-right: 6%;
+        border: 4px black solid; }
+      .contenedorNovedades .contenido .contenedorNovedad .parlantes {
+        margin-right: 6%;
+        border: 4px black solid; }
+    .contenedorNovedades .contenido h2 {
+      font-family: 'Rubik Mono One', sans-serif;
+      margin: 6%;
+      font-size: 42px; }
+    .contenedorNovedades .contenido p {
+      margin: 5%; }
+  .contenedorNovedades .piePagina {
+    grid-area: footer;
+    height: 200px;
+    margin-top: auto; }
+
 * {
   margin: 0px;
   padding: 0px;

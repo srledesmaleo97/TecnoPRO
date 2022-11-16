@@ -242,7 +242,7 @@ width: 90px;
 }
 
 
-.contenedorNovedades{
+/*.contenedorNovedades{
     width: 100%;
     max-width: 100%;
     display: grid;
@@ -272,9 +272,10 @@ width: 90px;
     grid-area: footer;
     height: 200px;
     margin-top: auto;
- }
+ }*/
 
- .contenedorIndex{
+
+ /*.contenedorIndex{
     width: 100%;
     max-width: 100%; 
     display: grid;
@@ -353,7 +354,7 @@ width: 90px;
     grid-auto-rows: 320px;
     gap: 100px;
     padding: 40px;
-    margin: 6px;
+    margin: 26px;
     grid-area: galeria;
  }
  
@@ -363,7 +364,7 @@ width: 90px;
     justify-content: center;
     margin: 100px;
     padding: 10px;
-}
+}*/
 /* tamaño celular*/
 .contenedorContacto{
     display: grid;
