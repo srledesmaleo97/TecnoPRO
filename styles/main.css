@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Lilita+One&family=Mate+SC&family=Rubik+Mono+One&family=Share&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Lilita+One&family=Mate+SC&family=Rubik+Mono+One&family=Share&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Lilita+One&family=Mate+SC&family=Roboto+Condensed&family=Rubik+Mono+One&family=Share&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Rubik+Mono+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Mate+SC&family=Rubik+Mono+One&family=Share&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee&family=Bungee+Inline&family=Mate+SC&family=Rubik+Mono+One&family=Share&display=swap");
 .contenedorIndex {
   width: 100%;
   max-width: 100%;
@@ -78,6 +83,9 @@
     padding: 10px; }
   .contenedorTienda .piePagina {
     grid-area: footer; }
+    .contenedorTienda .piePagina p {
+      display: flex;
+      justify-content: center; }
 
 .contenedorNovedades {
   width: 100%;
@@ -110,6 +118,9 @@
     grid-area: footer;
     height: 200px;
     margin-top: auto; }
+    .contenedorNovedades .piePagina p {
+      display: flex;
+      justify-content: center; }
 
 .contenedorNosotros {
   width: 100%;
@@ -122,6 +133,13 @@
     grid-area: header; }
   .contenedorNosotros .nosotrosMenu {
     grid-area: contenidoPrincipal; }
+    .contenedorNosotros .nosotrosMenu h2 {
+      margin: 22px;
+      margin-left: 32%;
+      font-family: 'Lilita One', cursive; }
+    .contenedorNosotros .nosotrosMenu p {
+      padding: 5%;
+      font-family: 'Share', cursive; }
     .contenedorNosotros .nosotrosMenu img {
       height: 200px;
       margin: 10px 20px 50px 50px;
@@ -137,6 +155,36 @@
       margin-bottom: 52px; }
   .contenedorNosotros .piePagina {
     grid-area: footer; }
+    .contenedorNosotros .piePagina p {
+      display: flex;
+      justify-content: center; }
+
+.contenedorContacto {
+  grid-template-columns: 0.5fr 0.5fr  0.5fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
+  .contenedorContacto .header {
+    grid-area: header; }
+  .contenedorContacto .contenidoPrincipal {
+    grid-area: main; }
+    .contenedorContacto .contenidoPrincipal h2 {
+      margin: 5%;
+      margin-left: 24%;
+      color: #0003b2;
+      font-family: 'Alfa Slab One', cursive; }
+    .contenedorContacto .contenidoPrincipal p {
+      margin: 2%;
+      font-family: 'Roboto Condensed', sans-serif; }
+    .contenedorContacto .contenidoPrincipal .formulario {
+      border: 1px black solid;
+      background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+      border-radius: 44px;
+      margin: 90px;
+      padding: 80px; }
+  .contenedorContacto .piePagina {
+    grid-area: footer;
+    height: 200px;
+    margin-top: auto; }
 
 * {
   margin: 0px;

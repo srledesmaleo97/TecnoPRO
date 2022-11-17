@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Lilita+One&family=Mate+SC&family=Rubik+Mono+One&family=Share&display=swap');
+
 .contenedorNosotros{
     width: 100%;
     max-width: 100%; 
@@ -14,6 +16,15 @@
                          }
                          .nosotrosMenu{
                             grid-area: contenidoPrincipal ;
+                            h2{
+                                margin: 22px;
+                                margin-left: 32%;
+                                font-family: 'Lilita One', cursive;
+                            }
+                            p{
+                                padding: 5%;
+                                font-family: 'Share', cursive;
+                            }
                             img{
                                 height: 200px;
                                 margin: 10px 20px 50px 50px;
@@ -34,5 +45,9 @@
                          }
                          .piePagina{
                             grid-area: footer;
+                            p{
+                                display: flex;
+                                justify-content: center;
+                            }
                          }
  }
