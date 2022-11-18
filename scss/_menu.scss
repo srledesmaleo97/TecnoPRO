@@ -130,7 +130,7 @@
 
  }
 
- /*pantalla mediana*/
+ /*pantalla celular*/
  @media (max-width:479px) and (min-width:320px){
     .contenedorIndex{
         width: 50%;
@@ -140,7 +140,8 @@
         grid-template-areas: "header"
                              "contenidoPrincipal"
                              "seccionIndex"
-                             "footer"; 
+                             "footer";
+                             /*HEADER*/ 
                              .header{
                                  .logo{
                                     height: 0px;
@@ -153,7 +154,7 @@
                                     }
                                  }
                              }
-
+                             /*MAIN*/
                               .contenidoPrincipal{
                                 .tituloPrincipal{
                                     display: block;
@@ -171,13 +172,13 @@
                                     font-size: 20px;
                                 }
                               }
-
+                            /*SECTION*/
                             .seccionIndex{
                                 .indexItem{
                                     display: none;
                                 }
                             }
-
+                          /*PIE DE PAGINA*/
                              .piePagina{
                                 .redes{
                                     .redesImg{

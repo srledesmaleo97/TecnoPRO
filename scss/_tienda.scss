@@ -33,3 +33,65 @@
                         
                         }
 }
+
+
+/*pantalla tablet*/
+@media screen and (max-width:1024px) and (min-width:768px){ 
+ }
+  
+
+ /*pantalla mediana*/
+ @media (max-width:1024px) and (min-width:768px){
+
+ }
+
+ /*pantalla celular*/
+ @media (max-width:479px) and (min-width:320px){
+    .contenedorTienda{
+        width: 50%;
+        max-width: 50%; 
+        grid-template-columns: 0.2fr;
+        grid-template-rows:  0.2fr;
+        grid-template-areas: "header"
+                             "galeria"
+                             "footer";
+                             /*HEADER*/ 
+                             .header{
+                                .logo{
+                                   height: 0px;
+                                   display: none;
+                                }
+                                .link{
+                                   display: block;
+                                   a{
+                                       font-size: 7px;
+                                   }
+                                }
+                                .btn{
+                                    padding: 2px 9px;
+                                    bottom{
+                                        padding: 2px 9px;
+                                        font-weight: 100;
+                                    }
+                                }
+                            }
+
+                            /*PIE DE PAGINA*/
+                            .piePagina{
+                                .redes{
+                                    .redesImg{
+                                        width: 40px;
+                                    }
+                                }
+                                .whatsapp{
+                                    .whatImg{
+                                        width: 60px;
+                                    }
+                                }
+                                p{
+                                    font-size: 10px;
+                                }
+                                
+                             }
+ }
+ }
