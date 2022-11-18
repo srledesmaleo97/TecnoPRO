@@ -68,11 +68,7 @@
     width: 80%;
     max-width: 80%; 
     display: grid;
-    grid-template-rows:  0.3fr 0.1fr 0.1fr 0.3fr;
-    grid-template-areas: "header header"
-                         "contenidoPrincipal contenidoPrincipal"
-                         "seccionIndex seccionIndex"
-                         "footer footer";
+    grid-template-rows:  0.1fr 0.1fr 0.1fr 0.7fr;
                          /*header*/
                          .header{
                             .logo{
@@ -99,17 +95,35 @@
                                 color: rgb(216, 208, 208);
                                 font-family: 'Anton', sans-serif;
                             }
+                            .tituloPrincipal{
+                                font-size: 30px;
+                                
+                                
+                            }
+                            .parrafoPrin{
+                                font-size: 30px;
+                                
+                            }
                         }    
                       /*seccion*/                         
-                            .seccionIndex{
-                                .indexItem{
-                                    display: block;
-                                    height: 50px;
-                                }
+                           
+                                
                          }
                       /*pie de pagina*/
+                      .piePagina{
+                        .redesImg{
+                            width: 60px;
+                            margin: 3%;
+                        }
+                        .whatsapp {
+                            width: 50px;
+                            position: fixed;
+                            bottom: 30px;
+                            right: 20px;
+                        }
+                      }
  }
-  }
+  
 
  /*pantalla mediana*/
  @media (max-width:1024px) and (min-width:768px){
@@ -118,5 +132,66 @@
 
  /*pantalla mediana*/
  @media (max-width:479px) and (min-width:320px){
+    .contenedorIndex{
+        width: 50%;
+        max-width: 50%; 
+        grid-template-columns: 0.2fr;
+        grid-template-rows:  0.2fr;
+        grid-template-areas: "header"
+                             "contenidoPrincipal"
+                             "seccionIndex"
+                             "footer"; 
+                             .header{
+                                 .logo{
+                                    height: 0px;
+                                    display: none;
+                                 }
+                                 .link{
+                                    display: block;
+                                    a{
+                                        font-size: 7px;
+                                    }
+                                 }
+                             }
 
+                              .contenidoPrincipal{
+                                .tituloPrincipal{
+                                    display: block;
+                                    font-size: 30px;
+                                }
+                                .parrafoPrin{
+                                    font-size: 20px ;
+                                    display: inline-block;
+                                    margin-left: 8px;
+                                    margin-right: 34px;
+                                    padding-right: 34px;
+                                    
+                                }
+                                strong{
+                                    font-size: 20px;
+                                }
+                              }
+
+                            .seccionIndex{
+                                .indexItem{
+                                    display: none;
+                                }
+                            }
+
+                             .piePagina{
+                                .redes{
+                                    .redesImg{
+                                        width: 40px;
+                                    }
+                                }
+                                .whatsapp{
+                                    .whatImg{
+                                        width: 60px;
+                                    }
+                                }
+                                p{
+                                    font-size: 10px;
+                                }
+                             }
+    }
  }
