@@ -173,16 +173,13 @@
     .contenedorTienda .header .logo {
       height: 0px;
       display: none; }
-    .contenedorTienda .header .link {
-      display: block; }
-      .contenedorTienda .header .link .btn {
-        padding: 2px 9px; }
-        .contenedorTienda .header .link .btn button {
-          font-size: 8px;
-          padding: 2px 3px;
-          font-weight: 700; }
-      .contenedorTienda .header .link a {
-        font-size: 7px; }
+    .contenedorTienda .header .link .btn {
+      padding: 2px 9px; }
+      .contenedorTienda .header .link .btn button {
+        font-size: 8px;
+        font-weight: 700; }
+    .contenedorTienda .header .link a {
+      font-size: 7px; }
     .contenedorTienda .piePagina .redes .redesImg {
       width: 40px; }
     .contenedorTienda .piePagina .whatsapp .whatImg {
@@ -221,6 +218,47 @@
     grid-area: footer;
     height: 200px;
     margin-top: auto; }
+
+/*pantalla celular*/
+@media (max-width: 479px) and (min-width: 320px) {
+  .contenedorNovedades {
+    width: 50%;
+    max-width: 50%;
+    grid-template-columns: 0.2fr;
+    grid-template-rows: 0.2fr;
+    grid-template-areas: "header" "contenido" "footer";
+    /*HEADER*/
+    /*contenido*/ }
+    .contenedorNovedades .header .logo {
+      height: 0px;
+      display: none; }
+    .contenedorNovedades .header .link .btn {
+      padding: 2px 9px; }
+      .contenedorNovedades .header .link .btn button {
+        font-size: 8px;
+        font-weight: 700; }
+    .contenedorNovedades .header .link a {
+      font-size: 7px; }
+    .contenedorNovedades .contenido h2 {
+      display: block;
+      font-size: 20px; }
+    .contenedorNovedades .contenido p {
+      font-size: 15px;
+      display: inline-block;
+      margin-left: 8px;
+      margin-right: 54px;
+      padding-right: 53px; }
+      .contenedorNovedades .contenido p strong {
+        font-size: 20px; }
+    .contenedorNovedades .contenido .contenedorNovedad {
+      display: block;
+      margin: 22px; }
+      .contenedorNovedades .contenido .contenedorNovedad .uniT {
+        height: auto; }
+      .contenedorNovedades .contenido .contenedorNovedad .parlantes {
+        height: auto; }
+    .contenedorNovedades .contenido .piePagina .redes .redesImg {
+      height: 22px; } }
 
 .contenedorNosotros {
   width: 100%;

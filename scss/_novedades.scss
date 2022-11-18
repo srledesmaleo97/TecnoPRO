@@ -44,4 +44,75 @@
                         }
 
    
+                        
 } 
+
+ /*pantalla celular*/
+ @media (max-width:479px) and (min-width:320px){
+         .contenedorNovedades{
+        width: 50%;
+        max-width: 50%; 
+        grid-template-columns: 0.2fr;
+        grid-template-rows:  0.2fr;
+        grid-template-areas: "header"
+                             "contenido"
+                             "footer";
+                             /*HEADER*/ 
+                             .header{
+                                .logo{
+                                    height: 0px;
+                                    display: none;
+                                     }
+                                     .link{
+                                        .btn{
+                                            padding: 2px 9px;
+                                            button{
+                                                font-size: 8px;
+                                                font-weight: 700;
+                                                  }
+                                           } 
+                                       a{
+                                           font-size: 7px;      
+                                        }
+                                     }     
+                                    }
+ 
+                                    /*contenido*/
+                                .contenido{
+                                    h2{
+                                         display: block;
+                                         font-size: 20px;
+                                        }
+                                    p{
+                                         font-size: 15px ;
+                                         display: inline-block;
+                                         margin-left: 8px;
+                                         margin-right: 54px;
+                                         padding-right: 53px;
+                                            strong{
+                                                font-size: 20px;
+                                            }
+                                        }
+                                    .contenedorNovedad{
+                                         display: block;
+                                         margin: 22px;
+                                         .uniT{
+                                            height: auto;
+                                         }
+                                         .parlantes{
+                                            height: auto;
+                                         }
+                                       }
+                                   
+
+                                .piePagina{
+                                    .redes{
+                                        .redesImg{
+                                            height: 22px;
+                                        }
+                                    }
+                                }    
+                            
+ }
+ }
+ }
