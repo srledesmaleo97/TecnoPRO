@@ -54,10 +54,38 @@
     grid-area: footer;
     height: 200px;
     margin-top: auto; }
-    .contenedorIndex .piePagina p {
-      display: flex;
-      justify-content: center; }
 
+/*pantalla tablet*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .contenedorIndex {
+    width: 80%;
+    max-width: 80%;
+    display: grid;
+    grid-template-rows: 0.3fr 0.1fr 0.1fr 0.3fr;
+    grid-template-areas: "header header" "contenidoPrincipal contenidoPrincipal" "seccionIndex seccionIndex" "footer footer";
+    /*header*/
+    /*main*/
+    /*seccion*/
+    /*pie de pagina*/ }
+    .contenedorIndex .header .logo {
+      height: 0px;
+      display: none; }
+    .contenedorIndex .header .link ul li {
+      display: block; }
+    .contenedorIndex .contenidoPrincipal .h5 {
+      font-size: 13px;
+      color: #d8d0d0;
+      font-family: 'Anton', sans-serif; }
+    .contenedorIndex .contenidoPrincipal .pIndex {
+      font-size: 13px;
+      color: #d8d0d0;
+      font-family: 'Anton', sans-serif; }
+    .contenedorIndex .seccionIndex .indexItem {
+      display: block;
+      height: 50px; } }
+
+/*pantalla mediana*/
+/*pantalla mediana*/
 .contenedorTienda {
   width: 100%;
   max-width: 100%;
@@ -83,9 +111,6 @@
     padding: 10px; }
   .contenedorTienda .piePagina {
     grid-area: footer; }
-    .contenedorTienda .piePagina p {
-      display: flex;
-      justify-content: center; }
 
 .contenedorNovedades {
   width: 100%;
@@ -118,9 +143,6 @@
     grid-area: footer;
     height: 200px;
     margin-top: auto; }
-    .contenedorNovedades .piePagina p {
-      display: flex;
-      justify-content: center; }
 
 .contenedorNosotros {
   width: 100%;
@@ -252,4 +274,6 @@ body {
     .piePagina .whatsapp .whatImg {
       width: 90px; }
   .piePagina p {
-    color: white; }
+    color: white;
+    display: flex;
+    justify-content: center; }

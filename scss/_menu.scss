@@ -59,10 +59,64 @@
                             grid-area: footer;
                             height: 200px;
                             margin-top: auto;
-                            p{
-                                display: flex;
-                                justify-content: center;
-                            }
-  
                         }                  
+ }
+
+ /*pantalla tablet*/
+ @media screen and (max-width:1024px) and (min-width:768px){ 
+    .contenedorIndex{
+    width: 80%;
+    max-width: 80%; 
+    display: grid;
+    grid-template-rows:  0.3fr 0.1fr 0.1fr 0.3fr;
+    grid-template-areas: "header header"
+                         "contenidoPrincipal contenidoPrincipal"
+                         "seccionIndex seccionIndex"
+                         "footer footer";
+                         /*header*/
+                         .header{
+                            .logo{
+                                height: 0px;
+                                display: none;
+                            }   
+                            .link{
+                                ul{
+                                    li{
+                                        display: block;
+                                    }
+                                }
+                            }
+                            }
+                        /*main*/
+                        .contenidoPrincipal{
+                            .h5{
+                                font-size: 13px;
+                                color: rgb(216, 208, 208);
+                                font-family: 'Anton', sans-serif;
+                            }
+                            .pIndex{
+                                font-size: 13px;
+                                color: rgb(216, 208, 208);
+                                font-family: 'Anton', sans-serif;
+                            }
+                        }    
+                      /*seccion*/                         
+                            .seccionIndex{
+                                .indexItem{
+                                    display: block;
+                                    height: 50px;
+                                }
+                         }
+                      /*pie de pagina*/
+ }
+  }
+
+ /*pantalla mediana*/
+ @media (max-width:1024px) and (min-width:768px){
+
+ }
+
+ /*pantalla mediana*/
+ @media (max-width:479px) and (min-width:320px){
+
  }
