@@ -265,8 +265,8 @@
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 0.2fr 1fr 0.2fr 0.5fr;
-  grid-template-areas: "header header" "contenidoPrincipal contenidoPrincipal" "seccion seccion" "footer footer"; }
+  grid-template-rows: 0.2fr 1fr  0.5fr;
+  grid-template-areas: "header header" "contenidoPrincipal contenidoPrincipal" "footer footer"; }
   .contenedorNosotros .header {
     grid-area: header; }
   .contenedorNosotros .nosotrosMenu {
@@ -282,20 +282,52 @@
       height: 200px;
       margin: 10px 20px 50px 50px;
       border: solid 3px black; }
-  .contenedorNosotros .sectionNos {
-    grid-area: seccion; }
-    .contenedorNosotros .sectionNos .iframe {
-      height: 310px;
-      width: 408px;
-      border: 1px black solid;
-      margin-left: 35%;
-      margin-top: 50px;
-      margin-bottom: 52px; }
   .contenedorNosotros .piePagina {
     grid-area: footer; }
     .contenedorNosotros .piePagina p {
       display: flex;
       justify-content: center; }
+
+/*pantalla celular*/
+@media (max-width: 479px) and (min-width: 320px) {
+  .contenedorNosotros {
+    width: 50%;
+    max-width: 50%;
+    grid-template-columns: 0.2fr;
+    grid-template-rows: 0.2fr;
+    grid-template-areas: "header" "contenidoPrincipal " "footer";
+    /*HEADER*/
+    /*PIE DE PAGINA*/ }
+    .contenedorNosotros .header .logo {
+      height: 0px;
+      display: none; }
+    .contenedorNosotros .header .link .btn {
+      padding: 2px 9px; }
+      .contenedorNosotros .header .link .btn button {
+        font-size: 8px;
+        font-weight: 700; }
+    .contenedorNosotros .header .link a {
+      font-size: 7px; }
+    .contenedorNosotros .nosotrosMenu {
+      grid-area: contenidoPrincipal; }
+      .contenedorNosotros .nosotrosMenu h2 {
+        font-size: 22px;
+        margin: 22px;
+        margin-left: 32%;
+        font-family: 'Lilita One', cursive; }
+      .contenedorNosotros .nosotrosMenu p {
+        padding: 5%;
+        font-family: 'Share', cursive; }
+      .contenedorNosotros .nosotrosMenu img {
+        height: 170px;
+        margin: 8px 18px 45px 45px;
+        border: solid 3px black; }
+    .contenedorNosotros .piePagina .redes .redesImg {
+      width: 40px; }
+    .contenedorNosotros .piePagina .whatsapp .whatImg {
+      width: 60px; }
+    .contenedorNosotros .piePagina p {
+      font-size: 10px; } }
 
 .contenedorContacto {
   grid-template-columns: 0.5fr 0.5fr  0.5fr;
