@@ -62,18 +62,21 @@
                                    display: none;
                                 }
                                 .link{
+                                    .btn{
+                                        padding: 2px 9px;
+                                        button{
+                                            font-size: 8px;
+                                            padding: 2px 3px;
+                                            font-weight: 700;
+                                        }
+                                    }
                                    display: block;
                                    a{
                                        font-size: 7px;
+                                       
                                    }
                                 }
-                                .btn{
-                                    padding: 2px 9px;
-                                    bottom{
-                                        padding: 2px 9px;
-                                        font-weight: 100;
-                                    }
-                                }
+                                
                             }
 
                             /*PIE DE PAGINA*/

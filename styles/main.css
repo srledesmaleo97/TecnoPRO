@@ -175,13 +175,14 @@
       display: none; }
     .contenedorTienda .header .link {
       display: block; }
+      .contenedorTienda .header .link .btn {
+        padding: 2px 9px; }
+        .contenedorTienda .header .link .btn button {
+          font-size: 8px;
+          padding: 2px 3px;
+          font-weight: 700; }
       .contenedorTienda .header .link a {
         font-size: 7px; }
-    .contenedorTienda .header .btn {
-      padding: 2px 9px; }
-      .contenedorTienda .header .btn bottom {
-        padding: 2px 9px;
-        font-weight: 100; }
     .contenedorTienda .piePagina .redes .redesImg {
       width: 40px; }
     .contenedorTienda .piePagina .whatsapp .whatImg {
