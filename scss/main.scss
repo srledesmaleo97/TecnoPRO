@@ -1,4 +1,12 @@
 
+
+/*variables*/
+
+$colorPrincipal:#050f14;
+$colorSecundario:black;
+$fuentePrincipal: 31px;
+$fuenteSecundaria: 20px;
+
 @import "menu";
 @import "tienda";
 @import "novedades";
@@ -23,7 +31,7 @@
     }
 
     .header{
-        background-color: #050f14;
+        background-color: $colorPrincipal ;
         display: flex;
         justify-content: space-between;
         align-items: center; 
@@ -37,7 +45,7 @@
                         transform: scale(1.1);
                     } 
                       a {
-                        font-size: 30px;
+                        font-size: $fuentePrincipal;
                         color: #fff;
                         text-decoration: none;
                         &:hover{
@@ -79,7 +87,7 @@
         }
         /*footer*/
         .piePagina{
-            background-color: black;
+            background-color: $colorSecundario;
             grid-area: footer;
             height: 200px;
             margin-top: auto;

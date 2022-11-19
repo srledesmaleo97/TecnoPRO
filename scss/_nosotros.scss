@@ -44,8 +44,7 @@
  /*pantalla celular*/
  @media (max-width:479px) and (min-width:320px){
     .contenedorNosotros{
-        width: 50%;
-        max-width: 50%; 
+         
         grid-template-columns: 0.2fr;
         grid-template-rows:   0.2fr;
         grid-template-areas: "header"
@@ -74,7 +73,7 @@
                                    .nosotrosMenu{
                                     grid-area: contenidoPrincipal ;
                                     h2{
-                                        font-size: 22px;
+                                        font-size: $fuenteSecundaria;
                                         margin: 22px;
                                         margin-left: 32%;
                                         font-family: 'Lilita One', cursive;

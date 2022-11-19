@@ -158,10 +158,10 @@
                               .contenidoPrincipal{
                                 .tituloPrincipal{
                                     display: block;
-                                    font-size: 30px;
+                                    font-size: $fuentePrincipal;
                                 }
                                 .parrafoPrin{
-                                    font-size: 20px ;
+                                    font-size: $fuenteSecundaria ;
                                     display: inline-block;
                                     margin-left: 8px;
                                     margin-right: 34px;
@@ -169,7 +169,7 @@
                                     
                                 }
                                 strong{
-                                    font-size: 20px;
+                                    font-size:$fuenteSecundaria ;
                                 }
                               }
                             /*SECTION*/

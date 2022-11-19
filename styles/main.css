@@ -1,3 +1,4 @@
+/*variables*/
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Lilita+One&family=Mate+SC&family=Rubik+Mono+One&family=Share&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Lilita+One&family=Mate+SC&family=Rubik+Mono+One&family=Share&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Lilita+One&family=Mate+SC&family=Roboto+Condensed&family=Rubik+Mono+One&family=Share&display=swap");
@@ -114,7 +115,7 @@
         font-size: 7px; }
     .contenedorIndex .contenidoPrincipal .tituloPrincipal {
       display: block;
-      font-size: 30px; }
+      font-size: 31px; }
     .contenedorIndex .contenidoPrincipal .parrafoPrin {
       font-size: 20px;
       display: inline-block;
@@ -222,8 +223,6 @@
 /*pantalla celular*/
 @media (max-width: 479px) and (min-width: 320px) {
   .contenedorNovedades {
-    width: 50%;
-    max-width: 50%;
     grid-template-columns: 0.2fr;
     grid-template-rows: 0.2fr;
     grid-template-areas: "header" "contenido" "footer";
@@ -291,8 +290,6 @@
 /*pantalla celular*/
 @media (max-width: 479px) and (min-width: 320px) {
   .contenedorNosotros {
-    width: 50%;
-    max-width: 50%;
     grid-template-columns: 0.2fr;
     grid-template-rows: 0.2fr;
     grid-template-areas: "header" "contenidoPrincipal " "footer";
@@ -311,7 +308,7 @@
     .contenedorNosotros .nosotrosMenu {
       grid-area: contenidoPrincipal; }
       .contenedorNosotros .nosotrosMenu h2 {
-        font-size: 22px;
+        font-size: 20px;
         margin: 22px;
         margin-left: 32%;
         font-family: 'Lilita One', cursive; }
@@ -356,6 +353,35 @@
     height: 200px;
     margin-top: auto; }
 
+/*pantalla celular*/
+@media (max-width: 479px) and (min-width: 320px) {
+  .contenedorContacto {
+    grid-template-columns: 0.2fr;
+    grid-template-rows: 0.2fr;
+    grid-template-areas: "header" "main" "footer";
+    /*HEADER*/
+    /*PIE DE PAGINA*/ }
+    .contenedorContacto .header .logo {
+      height: 0px;
+      display: none; }
+    .contenedorContacto .header .link .btn {
+      padding: 2px 9px; }
+      .contenedorContacto .header .link .btn button {
+        font-size: 8px;
+        font-weight: 700; }
+    .contenedorContacto .header .link a {
+      font-size: 7px; }
+    .contenedorContacto .contenidoPrincipal h2 {
+      font-size: 25px; }
+    .contenedorContacto .contenidoPrincipal p {
+      font-size: 20px; }
+    .contenedorContacto .piePagina .redes .redesImg {
+      width: 40px; }
+    .contenedorContacto .piePagina .whatsapp .whatImg {
+      width: 60px; }
+    .contenedorContacto .piePagina p {
+      font-size: 10px; } }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -379,7 +405,7 @@ body {
       .header .link ul li:hover {
         transform: scale(1.1); }
       .header .link ul li a {
-        font-size: 30px;
+        font-size: 31px;
         color: #fff;
         text-decoration: none; }
         .header .link ul li a:hover {

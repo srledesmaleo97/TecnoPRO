@@ -50,8 +50,7 @@
  /*pantalla celular*/
  @media (max-width:479px) and (min-width:320px){
          .contenedorNovedades{
-        width: 50%;
-        max-width: 50%; 
+        
         grid-template-columns: 0.2fr;
         grid-template-rows:  0.2fr;
         grid-template-areas: "header"
@@ -81,7 +80,7 @@
                                 .contenido{
                                     h2{
                                          display: block;
-                                         font-size: 20px;
+                                         font-size: $fuenteSecundaria;
                                         }
                                     p{
                                          font-size: 15px ;
