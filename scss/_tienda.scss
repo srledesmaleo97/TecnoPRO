@@ -35,14 +35,29 @@
 }
 
 
-/*pantalla tablet*/
-@media screen and (max-width:1024px) and (min-width:768px){ 
- }
-  
-
- /*pantalla mediana*/
- @media (max-width:1024px) and (min-width:768px){
-
+ /*tablet */
+ @media (max-width:768px) and (min-width:480px){
+    .contenedorTienda{
+        width: 100%;
+        max-width: 100%; 
+        grid-template-columns: 0.2fr;
+        grid-template-rows:  0.2fr;
+        grid-template-areas: "header header"
+                             "galeria galeria"
+                             "footer footer"; 
+                             .header{
+                                .logo{
+                    
+                                   display: none;
+                                }
+                                .link{
+                                   display: block;
+                                   a{
+                                       font-size: 27px;
+                                   }
+                                }
+                            }
+                            }
  }
 
  /*pantalla celular*/

@@ -188,8 +188,21 @@
   .contenedorTienda .piePagina {
     grid-area: footer; }
 
-/*pantalla tablet*/
-/*pantalla mediana*/
+/*tablet */
+@media (max-width: 768px) and (min-width: 480px) {
+  .contenedorTienda {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 0.2fr;
+    grid-template-rows: 0.2fr;
+    grid-template-areas: "header header" "galeria galeria" "footer footer"; }
+    .contenedorTienda .header .logo {
+      display: none; }
+    .contenedorTienda .header .link {
+      display: block; }
+      .contenedorTienda .header .link a {
+        font-size: 27px; } }
+
 /*pantalla celular*/
 @media (max-width: 479px) and (min-width: 320px) {
   .contenedorTienda {
