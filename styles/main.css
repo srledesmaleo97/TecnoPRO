@@ -93,7 +93,43 @@
     bottom: 30px;
     right: 20px; } }
 
-/*pantalla mediana*/
+/*tablet */
+@media (max-width: 768px) and (min-width: 480px) {
+  .contenedorIndex {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 0.2fr;
+    grid-template-rows: 0.2fr;
+    grid-template-areas: "header header" "contenidoPrincipal contenidoPrincipal" "seccionIndex seccionIndex" "footer footer";
+    /*main*/ }
+    .contenedorIndex .header .logo {
+      display: none; }
+    .contenedorIndex .header .link {
+      display: block; }
+      .contenedorIndex .header .link a {
+        font-size: 27px; }
+    .contenedorIndex .contenidoPrincipal {
+      /*PIE DE PAGINA*/ }
+      .contenedorIndex .contenidoPrincipal .h5 {
+        font-size: 13px;
+        color: #d8d0d0;
+        font-family: 'Anton', sans-serif; }
+      .contenedorIndex .contenidoPrincipal .pIndex {
+        font-size: 13px;
+        color: #d8d0d0;
+        font-family: 'Anton', sans-serif; }
+      .contenedorIndex .contenidoPrincipal .tituloPrincipal {
+        font-size: 30px; }
+      .contenedorIndex .contenidoPrincipal .parrafoPrin {
+        font-size: 30px;
+        margin: 53px; }
+      .contenedorIndex .contenidoPrincipal .piePagina .redes .redesImg {
+        width: 40px; }
+      .contenedorIndex .contenidoPrincipal .piePagina .whatsapp .whatImg {
+        display: none; }
+      .contenedorIndex .contenidoPrincipal .piePagina p {
+        font-size: 10px; } }
+
 /*pantalla celular*/
 @media (max-width: 479px) and (min-width: 320px) {
   .contenedorIndex {
@@ -104,8 +140,7 @@
     grid-template-areas: "header" "contenidoPrincipal" "seccionIndex" "footer";
     /*HEADER*/
     /*MAIN*/
-    /*SECTION*/
-    /*PIE DE PAGINA*/ }
+    /*SECTION*/ }
     .contenedorIndex .header .logo {
       height: 0px;
       display: none; }
@@ -125,13 +160,7 @@
     .contenedorIndex .contenidoPrincipal strong {
       font-size: 20px; }
     .contenedorIndex .seccionIndex .indexItem {
-      display: none; }
-    .contenedorIndex .piePagina .redes .redesImg {
-      width: 40px; }
-    .contenedorIndex .piePagina .whatsapp .whatImg {
-      width: 60px; }
-    .contenedorIndex .piePagina p {
-      font-size: 10px; } }
+      display: none; } }
 
 .contenedorTienda {
   width: 100%;

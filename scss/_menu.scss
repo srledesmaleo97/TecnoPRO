@@ -125,9 +125,71 @@
  }
   
 
- /*pantalla mediana*/
- @media (max-width:1024px) and (min-width:768px){
+ /*tablet */
+ @media (max-width:768px) and (min-width:480px){
+    .contenedorIndex{
+        width: 100%;
+        max-width: 100%; 
+        grid-template-columns: 0.2fr;
+        grid-template-rows:  0.2fr;
+        grid-template-areas: "header header"
+                             "contenidoPrincipal contenidoPrincipal"
+                             "seccionIndex seccionIndex"
+                             "footer footer";
+                             .header{
+                                .logo{
+                    
+                                   display: none;
+                                }
+                                .link{
+                                   display: block;
+                                   a{
+                                       font-size: 27px;
+                                   }
+                                }
+                            }
 
+                            /*main*/
+                        .contenidoPrincipal{
+                            .h5{
+                                font-size: 13px;
+                                color: rgb(216, 208, 208);
+                                font-family: 'Anton', sans-serif;
+                            }
+                            .pIndex{
+                                font-size: 13px;
+                                color: rgb(216, 208, 208);
+                                font-family: 'Anton', sans-serif;
+                            }
+                            .tituloPrincipal{
+                                font-size: 30px;
+                                
+                                
+                            }
+                            .parrafoPrin{
+                                font-size: 30px;
+                                margin: 53px;
+                                
+                            }
+
+                            /*PIE DE PAGINA*/
+                            .piePagina{ 
+                                .redes{
+                                    .redesImg{
+                                        width: 40px;
+                                    }
+                                }
+                                .whatsapp{
+                                    .whatImg{
+                                        display: none;
+                                    }
+                                }
+                                p{
+                                    font-size: 10px;
+                                }
+                             }
+ }                         
+ }
  }
 
  /*pantalla celular*/
@@ -178,21 +240,6 @@
                                     display: none;
                                 }
                             }
-                          /*PIE DE PAGINA*/
-                             .piePagina{
-                                .redes{
-                                    .redesImg{
-                                        width: 40px;
-                                    }
-                                }
-                                .whatsapp{
-                                    .whatImg{
-                                        width: 60px;
-                                    }
-                                }
-                                p{
-                                    font-size: 10px;
-                                }
-                             }
+                          
     }
  }
