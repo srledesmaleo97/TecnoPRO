@@ -26,14 +26,25 @@
                                     margin-right: 6%;
                                     border: 4px black solid;
                                 }
+                                .card-img-top{
+                                    width: 50%;
+                                
+                                }
+                                .card-title{
+                                    font-size: 25px;
+                                }
+                                .card-text{
+                                    font-size: 17px;
+                                }
                             }
-                            h2{
-                                font-family: 'Rubik Mono One', sans-serif;
+                            h1{
+                                font-family:$tipografiaTitulo ;
                                 margin: 6%;
                                 font-size: 42px;
                             }
                             p{
                                 margin: 5%;
+                                font-family: $tipografiaParrafo;
                             }
                         }
                         .piePagina{
@@ -100,7 +111,7 @@
  
                                     /*contenido*/
                                 .contenido{
-                                    h2{
+                                    h1{
                                          display: block;
                                          font-size: $fuenteSecundaria;
                                         }

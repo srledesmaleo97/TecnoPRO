@@ -20,8 +20,6 @@
     grid-area: contenidoPrincipal; }
     .contenedorIndex .contenidoPrincipal h1 {
       padding: 50px;
-      font-family: 'Abril Fatface', cursive;
-      font-family: 'Alkalami', serif;
       font-family: 'Anton', sans-serif; }
       .contenedorIndex .contenidoPrincipal h1 .tituloPrincipal {
         display: inline-block;
@@ -29,10 +27,7 @@
     .contenedorIndex .contenidoPrincipal .parrafoPrin {
       display: inline-block;
       margin-left: 300px;
-      font-family: 'Abril Fatface', cursive;
-      font-family: 'Alkalami', serif;
-      font-family: 'Anton', sans-serif;
-      font-family: 'Be Vietnam Pro', sans-serif; }
+      font-family: "Be Vietnam Pro", sans-serif; }
   .contenedorIndex .seccionIndex {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -251,12 +246,19 @@
       .contenedorNovedades .contenido .contenedorNovedad .parlantes {
         margin-right: 6%;
         border: 4px black solid; }
-    .contenedorNovedades .contenido h2 {
-      font-family: 'Rubik Mono One', sans-serif;
+      .contenedorNovedades .contenido .contenedorNovedad .card-img-top {
+        width: 50%; }
+      .contenedorNovedades .contenido .contenedorNovedad .card-title {
+        font-size: 25px; }
+      .contenedorNovedades .contenido .contenedorNovedad .card-text {
+        font-size: 17px; }
+    .contenedorNovedades .contenido h1 {
+      font-family: "Anton", sans-serif;
       margin: 6%;
       font-size: 42px; }
     .contenedorNovedades .contenido p {
-      margin: 5%; }
+      margin: 5%;
+      font-family: "Be Vietnam Pro", sans-serif; }
   .contenedorNovedades .piePagina {
     grid-area: footer;
     height: 200px;
@@ -295,7 +297,7 @@
         font-weight: 700; }
     .contenedorNovedades .header .link a {
       font-size: 7px; }
-    .contenedorNovedades .contenido h2 {
+    .contenedorNovedades .contenido h1 {
       display: block;
       font-size: 20px; }
     .contenedorNovedades .contenido p {
@@ -327,13 +329,13 @@
     grid-area: header; }
   .contenedorNosotros .nosotrosMenu {
     grid-area: contenidoPrincipal; }
-    .contenedorNosotros .nosotrosMenu h2 {
+    .contenedorNosotros .nosotrosMenu h1 {
       margin: 22px;
       margin-left: 32%;
-      font-family: 'Lilita One', cursive; }
+      font-family: "Anton", sans-serif; }
     .contenedorNosotros .nosotrosMenu p {
       padding: 5%;
-      font-family: 'Share', cursive; }
+      font-family: "Be Vietnam Pro", sans-serif; }
     .contenedorNosotros .nosotrosMenu img {
       height: 200px;
       margin: 10px 20px 50px 50px;
@@ -379,7 +381,7 @@
       font-size: 7px; }
     .contenedorNosotros .nosotrosMenu {
       grid-area: contenidoPrincipal; }
-      .contenedorNosotros .nosotrosMenu h2 {
+      .contenedorNosotros .nosotrosMenu h1 {
         font-size: 20px;
         margin: 22px;
         margin-left: 32%;
@@ -406,14 +408,14 @@
     grid-area: header; }
   .contenedorContacto .contenidoPrincipal {
     grid-area: main; }
-    .contenedorContacto .contenidoPrincipal h2 {
+    .contenedorContacto .contenidoPrincipal h1 {
       margin: 5%;
       margin-left: 24%;
       color: #0003b2;
-      font-family: 'Alfa Slab One', cursive; }
+      font-family: "Anton", sans-serif; }
     .contenedorContacto .contenidoPrincipal p {
       margin: 2%;
-      font-family: 'Roboto Condensed', sans-serif; }
+      font-family: "Be Vietnam Pro", sans-serif; }
     .contenedorContacto .contenidoPrincipal .formulario {
       border: 1px black solid;
       background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
@@ -458,7 +460,7 @@
         font-weight: 700; }
     .contenedorContacto .header .link a {
       font-size: 7px; }
-    .contenedorContacto .contenidoPrincipal h2 {
+    .contenedorContacto .contenidoPrincipal h1 {
       font-size: 25px; }
     .contenedorContacto .contenidoPrincipal p {
       font-size: 20px; }

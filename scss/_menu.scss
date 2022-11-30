@@ -17,8 +17,8 @@
                             grid-area: contenidoPrincipal;
                             h1{
                                 padding: 50px;
-                                font-family: 'Abril Fatface', cursive;
-                                font-family: 'Alkalami', serif;
+                                
+                                
                                 font-family: 'Anton', sans-serif; 
                                 .tituloPrincipal{
                                     display: inline-block;
@@ -28,10 +28,7 @@
                             .parrafoPrin{
                                 display: inline-block;
                                 margin-left: 300px;
-                                font-family: 'Abril Fatface', cursive;
-                                font-family: 'Alkalami', serif;
-                                font-family: 'Anton', sans-serif;
-                                font-family: 'Be Vietnam Pro', sans-serif;
+                                font-family: $tipografiaParrafo;
                             }
                          }
                          .seccionIndex{

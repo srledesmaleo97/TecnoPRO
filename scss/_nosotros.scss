@@ -15,14 +15,14 @@
                          }
                          .nosotrosMenu{
                             grid-area: contenidoPrincipal ;
-                            h2{
+                            h1{
                                 margin: 22px;
                                 margin-left: 32%;
-                                font-family: 'Lilita One', cursive;
+                                font-family: $tipografiaTitulo;
                             }
                             p{
                                 padding: 5%;
-                                font-family: 'Share', cursive;
+                                font-family: $tipografiaParrafo;
                             }
                             img{
                                 height: 200px;
@@ -97,7 +97,7 @@
 
                                    .nosotrosMenu{
                                     grid-area: contenidoPrincipal ;
-                                    h2{
+                                    h1{
                                         font-size: $fuenteSecundaria;
                                         margin: 22px;
                                         margin-left: 32%;
