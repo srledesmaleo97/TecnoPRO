@@ -239,26 +239,39 @@
     grid-area: contenido; }
     .contenedorNovedades .contenido .contenedorNovedad {
       display: flex;
-      margin: 4%; }
+      margin: 4%;
+      width: 70%;
+      margin-left: 19%; }
       .contenedorNovedades .contenido .contenedorNovedad .uniT {
         margin-right: 6%;
-        border: 4px black solid; }
+        border: 4px black solid;
+        margin-right: 18%; }
       .contenedorNovedades .contenido .contenedorNovedad .parlantes {
         margin-right: 6%;
         border: 4px black solid; }
       .contenedorNovedades .contenido .contenedorNovedad .card-img-top {
-        width: 50%; }
+        width: 39%;
+        margin-left: 27%; }
       .contenedorNovedades .contenido .contenedorNovedad .card-title {
-        font-size: 25px; }
+        text-align: center;
+        font-size: 23px;
+        margin-left: 20%;
+        margin-right: 20%; }
       .contenedorNovedades .contenido .contenedorNovedad .card-text {
-        font-size: 17px; }
+        font-size: 15px; }
+      .contenedorNovedades .contenido .contenedorNovedad .btn-primary {
+        margin-top: 3%;
+        margin-left: 23%; }
     .contenedorNovedades .contenido h1 {
       font-family: "Anton", sans-serif;
       margin: 6%;
-      font-size: 42px; }
+      font-size: 42px;
+      text-align: center; }
     .contenedorNovedades .contenido p {
-      margin: 5%;
-      font-family: "Be Vietnam Pro", sans-serif; }
+      margin: 1%;
+      font-family: "Be Vietnam Pro", sans-serif;
+      text-align: center;
+      font-size: 24px; }
   .contenedorNovedades .piePagina {
     grid-area: footer;
     height: 200px;
@@ -410,18 +423,40 @@
     grid-area: main; }
     .contenedorContacto .contenidoPrincipal h1 {
       margin: 5%;
-      margin-left: 24%;
-      color: #0003b2;
-      font-family: "Anton", sans-serif; }
+      text-align: center; }
     .contenedorContacto .contenidoPrincipal p {
       margin: 2%;
-      font-family: "Be Vietnam Pro", sans-serif; }
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: center; }
     .contenedorContacto .contenidoPrincipal .formulario {
       border: 1px black solid;
       background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
       border-radius: 44px;
       margin: 90px;
-      padding: 80px; }
+      padding: 80px;
+      width: 45%;
+      margin-left: 28%; }
+    .contenedorContacto .contenidoPrincipal .form-label {
+      font-size: 23px; }
+    .contenedorContacto .contenidoPrincipal .input-group-text {
+      font-size: 23px; }
+    .contenedorContacto .contenidoPrincipal .form-check-label {
+      font-size: 23px; }
+    .contenedorContacto .contenidoPrincipal .form-control {
+      width: 100%;
+      height: 38px; }
+    .contenedorContacto .contenidoPrincipal .input-group-text {
+      width: 38%;
+      font-size: 19px; }
+    .contenedorContacto .contenidoPrincipal .form-check {
+      width: 20%; }
+    .contenedorContacto .contenidoPrincipal .form-controol {
+      width: 52%; }
+    .contenedorContacto .contenidoPrincipal .form-check-input {
+      height: 16px;
+      width: 16px; }
+    .contenedorContacto .contenidoPrincipal .btn-primary {
+      text-align: center; }
   .contenedorContacto .piePagina {
     grid-area: footer;
     height: 200px;
