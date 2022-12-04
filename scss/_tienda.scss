@@ -63,8 +63,6 @@
  /*pantalla celular*/
  @media (max-width:479px) and (min-width:320px){
     .contenedorTienda{
-        width: 50%;
-        max-width: 50%; 
         grid-template-columns: 0.2fr;
         grid-template-rows:  0.2fr;
         grid-template-areas: "header"
@@ -77,10 +75,11 @@
                                    display: none;
                                 }
                                 .link{
+                                    width: auto;
                                     .btn{
                                         padding: 2px 9px;
                                         button{
-                                            font-size: 8px;
+                                            font-size: 3px;
                                             font-weight: 700;
                                               }
                                        } 
@@ -92,20 +91,19 @@
 
                             /*PIE DE PAGINA*/
                             .piePagina{
-                                .redes{
-                                    .redesImg{
-                                        width: 40px;
-                                    }
+                                height: 99%;
+                                .redesImg{
+                                    width: 50px;
                                 }
                                 .whatsapp{
                                     .whatImg{
-                                        width: 60px;
+                                        width: 54px;
                                     }
                                 }
                                 p{
-                                    font-size: 10px;
+                                    font-size: 12px;
+                                    margin-top: 4%;
                                 }
-                                
-                             }
+                              }
  }
  }

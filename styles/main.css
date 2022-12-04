@@ -209,8 +209,6 @@
 /*pantalla celular*/
 @media (max-width: 479px) and (min-width: 320px) {
   .contenedorTienda {
-    width: 50%;
-    max-width: 50%;
     grid-template-columns: 0.2fr;
     grid-template-rows: 0.2fr;
     grid-template-areas: "header" "galeria" "footer";
@@ -219,19 +217,24 @@
     .contenedorTienda .header .logo {
       height: 0px;
       display: none; }
-    .contenedorTienda .header .link .btn {
-      padding: 2px 9px; }
-      .contenedorTienda .header .link .btn button {
-        font-size: 8px;
-        font-weight: 700; }
-    .contenedorTienda .header .link a {
-      font-size: 7px; }
-    .contenedorTienda .piePagina .redes .redesImg {
-      width: 40px; }
-    .contenedorTienda .piePagina .whatsapp .whatImg {
-      width: 60px; }
-    .contenedorTienda .piePagina p {
-      font-size: 10px; } }
+    .contenedorTienda .header .link {
+      width: auto; }
+      .contenedorTienda .header .link .btn {
+        padding: 2px 9px; }
+        .contenedorTienda .header .link .btn button {
+          font-size: 3px;
+          font-weight: 700; }
+      .contenedorTienda .header .link a {
+        font-size: 7px; }
+    .contenedorTienda .piePagina {
+      height: 99%; }
+      .contenedorTienda .piePagina .redesImg {
+        width: 50px; }
+      .contenedorTienda .piePagina .whatsapp .whatImg {
+        width: 54px; }
+      .contenedorTienda .piePagina p {
+        font-size: 12px;
+        margin-top: 4%; } }
 
 .contenedorNovedades {
   width: 100%;
