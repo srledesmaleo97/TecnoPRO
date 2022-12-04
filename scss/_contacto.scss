@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Lilita+One&family=Mate+SC&family=Rubik+Mono+One&family=Share&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Lilita+One&family=Mate+SC&family=Roboto+Condensed&family=Rubik+Mono+One&family=Share&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Anton&family=Be+Vietnam+Pro:ital,wght@0,200;1,100&family=Bungee+Inline&family=Kdam+Thmor+Pro&family=Lilita+One&family=Mate+SC&family=Mitr&family=Patua+One&family=Roboto+Condensed&family=Rubik+Mono+One&family=Russo+One&family=Share&display=swap');
 .contenedorContacto{
     grid-template-columns: 0.5fr 0.5fr  0.5fr;
     grid-template-rows:  0.5fr 0.5fr 0.5fr; 
@@ -23,22 +23,26 @@
                                 text-align: center;
                              }
                             .formulario{
-                                border: 1px black solid;
-                                background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+                                border: 2px black solid;
+                                background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
                                 border-radius: 44px;
                                 margin: 90px;
                                 padding: 80px;
                                 width: 45%;
                                 margin-left: 28%;
+                                font-family: 'Mitr', sans-serif;
                              }
                              .form-label{
                                 font-size: 23px;
+                                font-family: 'Mitr', sans-serif;
                             }
                             .input-group-text{
                                 font-size: 23px;
+                                font-family: 'Mitr', sans-serif;
                             }
                             .form-check-label{
                                 font-size: 23px;
+                                font-family: 'Mitr', sans-serif;
                             }
                             .form-control{
                                 width: 100%;
@@ -46,7 +50,8 @@
                             }
                             .input-group-text{
                                 width: 38%;
-                                font-size: 19px;
+                                font-size: 15px;
+                                font-family: 'Mitr', sans-serif;
                             }
                             .form-check{
                                 width: 20%;
@@ -54,6 +59,7 @@
                             }
                             .form-controol{
                                 width: 52%;
+                                font-family: 'Mitr', sans-serif;
                             }
                             .form-check-input{
                                 height: 16px;
@@ -61,6 +67,7 @@
                             }
                             .btn-primary{
                                 text-align: center;
+                                font-family: 'Mitr', sans-serif;
                             }
                         }
                         .piePagina{
