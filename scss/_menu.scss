@@ -194,8 +194,6 @@
  /*pantalla celular*/
  @media (max-width:479px) and (min-width:320px){
     .contenedorIndex{
-        width: 50%;
-        max-width: 50%; 
         grid-template-columns: 0.2fr;
         grid-template-rows:  0.2fr;
         grid-template-areas: "header"
@@ -218,19 +216,16 @@
                              /*MAIN*/
                               .contenidoPrincipal{
                                 .tituloPrincipal{
-                                    display: block;
+                    
                                     font-size: $fuentePrincipal;
                                 }
                                 .parrafoPrin{
-                                    font-size: $fuenteSecundaria ;
-                                    display: inline-block;
-                                    margin-left: 8px;
-                                    margin-right: 34px;
+                                    margin-left: 6%;
                                     padding-right: 34px;
-                                    
+                                    font-size: $fuenteCell;   
                                 }
                                 strong{
-                                    font-size:$fuenteSecundaria ;
+                                    font-size: $fuenteCell;
                                 }
                               }
                             /*SECTION*/
@@ -239,6 +234,19 @@
                                     display: none;
                                 }
                             }
-                          
+                          .piePagina{
+                            height: 82%;
+                            .redesImg{
+                                width: 50px;
+                            }
+                            .whatsapp{
+                                .whatImg{
+                                    width: 54px;
+                                }
+                            }
+                            p{
+                                font-size: 12px;
+                            }
+                          }
     }
  }
