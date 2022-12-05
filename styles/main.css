@@ -323,21 +323,40 @@
     .contenedorNovedades .header .link a {
       font-size: 7px; }
     .contenedorNovedades .contenido h1 {
-      display: block;
-      font-size: 20px; }
+      text-align: center;
+      font-size: 23px; }
     .contenedorNovedades .contenido p {
       font-size: 15px;
-      display: inline-block;
+      display: block;
       margin-left: 8px;
       margin-right: 54px;
       padding-right: 53px; }
       .contenedorNovedades .contenido p strong {
-        font-size: 20px; }
+        font-size: 15px; }
     .contenedorNovedades .contenido .contenedorNovedad {
-      display: block;
-      margin: 22px; }
+      width: 20%;
+      display: inline-block;
+      margin-left: 6px;
+      margin-top: 32px;
+      margin-bottom: 54px; }
       .contenedorNovedades .contenido .contenedorNovedad .uniT {
-        height: auto; }
+        margin-left: 2px;
+        border: 2px black solid;
+        height: 40%;
+        width: 20%; }
+      .contenedorNovedades .contenido .contenedorNovedad .card-title {
+        text-align: center;
+        font-size: 22px;
+        margin-left: 15%;
+        margin-right: 15%; }
+      .contenedorNovedades .contenido .contenedorNovedad .card-img-top {
+        width: 28%;
+        margin-left: 27%; }
+      .contenedorNovedades .contenido .contenedorNovedad .card-text {
+        text-align: center;
+        font-size: 16px;
+        margin-left: 2px;
+        margin-right: 1px; }
       .contenedorNovedades .contenido .contenedorNovedad .parlantes {
         height: auto; }
     .contenedorNovedades .contenido .piePagina .redes .redesImg {

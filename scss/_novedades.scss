@@ -126,24 +126,49 @@
                                     /*contenido*/
                                 .contenido{
                                     h1{
-                                         display: block;
-                                         font-size: $fuenteSecundaria;
+                                        text-align: center;
+                                         font-size: 23px;
                                         }
                                     p{
                                          font-size: 15px ;
-                                         display: inline-block;
+                                         display: block;
                                          margin-left: 8px;
                                          margin-right: 54px;
                                          padding-right: 53px;
                                             strong{
-                                                font-size: 20px;
+                                                font-size: 15px;
                                             }
                                         }
                                     .contenedorNovedad{
-                                         display: block;
-                                         margin: 22px;
+                                         
+                                         width: 20%;
+                                         display: inline-block;
+                                         margin-left: 6px;
+                                         margin-top: 32px;
+                                         margin-bottom: 54px;
+                                         
                                          .uniT{
-                                            height: auto;
+                                           margin-left: 2px;
+                                            border: 2px black solid;
+                                            height: 40%;
+                                            width: 20%;
+                                        
+                                         }
+                                         .card-title{
+                                            text-align: center;
+                                            font-size: 22px;
+                                            margin-left: 15%;
+                                            margin-right: 15%; 
+                                         }
+                                         .card-img-top{
+                                            width: 28%;
+                                            margin-left: 27%;
+                                         }
+                                         .card-text{
+                                            text-align: center;
+                                            font-size: 16px;
+                                            margin-left: 2px;
+                                            margin-right: 1px;
                                          }
                                          .parlantes{
                                             height: auto;
