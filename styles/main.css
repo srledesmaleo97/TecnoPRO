@@ -157,7 +157,8 @@
     .contenedorIndex .seccionIndex .indexItem {
       display: none; }
     .contenedorIndex .piePagina {
-      height: 82%; }
+      height: 82%;
+      margin-bottom: 0%; }
       .contenedorIndex .piePagina .redesImg {
         width: 50px; }
       .contenedorIndex .piePagina .whatsapp .whatImg {
@@ -502,6 +503,7 @@
     grid-template-rows: 0.2fr;
     grid-template-areas: "header" "main" "footer";
     /*HEADER*/
+    /*main*/
     /*PIE DE PAGINA*/ }
     .contenedorContacto .header .logo {
       height: 0px;
@@ -514,15 +516,47 @@
     .contenedorContacto .header .link a {
       font-size: 7px; }
     .contenedorContacto .contenidoPrincipal h1 {
-      font-size: 25px; }
+      font-size: 35px; }
     .contenedorContacto .contenidoPrincipal p {
       font-size: 20px; }
-    .contenedorContacto .piePagina .redes .redesImg {
-      width: 40px; }
-    .contenedorContacto .piePagina .whatsapp .whatImg {
-      width: 60px; }
-    .contenedorContacto .piePagina p {
-      font-size: 10px; } }
+      .contenedorContacto .contenidoPrincipal p strong {
+        font-size: 20px; }
+    .contenedorContacto .contenidoPrincipal .formulario {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 2%; }
+    .contenedorContacto .contenidoPrincipal .form-label {
+      font-size: 15px; }
+    .contenedorContacto .contenidoPrincipal .form-control {
+      width: 120%;
+      height: 28px; }
+    .contenedorContacto .contenidoPrincipal .input-group-text {
+      font-size: 14px;
+      text-align: center; }
+    .contenedorContacto .contenidoPrincipal .form-check-label {
+      font-size: 14px;
+      text-align: center; }
+    .contenedorContacto .contenidoPrincipal .btn-primary {
+      height: 50px;
+      font-size: 18px;
+      margin-left: 20%; }
+    .contenedorContacto .contenidoPrincipal .input-group {
+      display: block; }
+    .contenedorContacto .contenidoPrincipal .form-controol {
+      height: 80%;
+      width: 100%; }
+    .contenedorContacto .contenidoPrincipal .input-group-text {
+      height: 80%;
+      width: 100%; }
+    .contenedorContacto .piePagina {
+      height: 82%;
+      margin-bottom: 0%; }
+      .contenedorContacto .piePagina .redesImg {
+        width: 50px; }
+      .contenedorContacto .piePagina .whatsapp .whatImg {
+        width: 54px; }
+      .contenedorContacto .piePagina p {
+        font-size: 12px; } }
 
 * {
   margin: 0px;

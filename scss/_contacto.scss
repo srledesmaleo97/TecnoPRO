@@ -108,8 +108,7 @@
 
   /*pantalla celular*/
  @media (max-width:479px) and (min-width:320px){
-    .contenedorContacto{
-         
+    .contenedorContacto{  
         grid-template-columns: 0.2fr;
         grid-template-rows:   0.2fr;
         grid-template-areas: "header"
@@ -134,32 +133,71 @@
                                      }
                                     }
                                    }
-
+                             /*main*/
                              .contenidoPrincipal{
                                 h1{
-                                    font-size: 25px;
+                                    font-size: 35px;
                                 }
                                 p{
                                     font-size: $fuenteSecundaria;
+                                    strong{
+                                        font-size: $fuenteSecundaria;
+                                    }
                                 }
+                                .formulario{
+                                    width: 90%;
+                                    margin-left: 5%;
+                                    margin-right: 2%;
+                                   }
+                                   .form-label{
+                                    font-size: 15px;
+                                   }
+                                   .form-control{
+                                    width: 120%;
+                                    height: 28px;
+                                    }
+                                   .input-group-text{
+                                    font-size: $fuenteCell;
+                                    text-align: center;
+                                   }
+                                   .form-check-label{
+                                    font-size: $fuenteCell;
+                                    text-align: center;
+                                   }
+                                   .btn-primary{
+                                    height: 50px;
+                                    font-size: 18px;
+                                    margin-left: 20%;
+                                   }
+                                   .input-group{
+                                    display: block;
+                                   }
+                                   .form-controol{
+                                    height: 80%;
+                                    width: 100%;
+                                   }
+                                   .input-group-text{
+                                    height: 80%;
+                                    width: 100%;
+                                   }
                              }      
-
+                            
+                             
                             /*PIE DE PAGINA*/
                             .piePagina{
-                                .redes{
-                                    .redesImg{
-                                        width: 40px;
-                                    }
+                                height: 82%;
+                                margin-bottom: 0%;
+                                .redesImg{
+                                    width: 50px;
                                 }
                                 .whatsapp{
                                     .whatImg{
-                                        width: 60px;
+                                        width: 54px;
                                     }
                                 }
                                 p{
-                                    font-size: 10px;
+                                    font-size: 12px;
                                 }
-                                
-                             }
+                              }
  }
  }                
