@@ -96,10 +96,9 @@
 
  /*pantalla celular*/
  @media (max-width:479px) and (min-width:320px){
-         .contenedorNovedades{
-        
-        grid-template-columns: 0.2fr;
-        grid-template-rows:  0.2fr;
+    .contenedorNovedades{
+        grid-template-columns: 0.1fr;
+        grid-template-rows:  0.1fr 0.1fr 0.1fr;
         grid-template-areas: "header"
                              "contenido"
                              "footer";
@@ -110,6 +109,8 @@
                                     display: none;
                                      }
                                      .link{
+                                        display: block;
+                                        width: 100%;
                                         .btn{
                                             padding: 2px 9px;
                                             button{
@@ -122,68 +123,88 @@
                                         }
                                      }     
                                     }
- 
-                                    /*contenido*/
-                                .contenido{
-                                    h1{
-                                        text-align: center;
-                                         font-size: 23px;
-                                        }
-                                    p{
-                                         font-size: 15px ;
-                                         display: block;
-                                         margin-left: 8px;
-                                         margin-right: 54px;
-                                         padding-right: 53px;
-                                            strong{
-                                                font-size: 15px;
-                                            }
-                                        }
-                                    .contenedorNovedad{
-                                         
-                                         width: 20%;
-                                         display: inline-block;
-                                         margin-left: 6px;
-                                         margin-top: 32px;
-                                         margin-bottom: 54px;
-                                         
-                                         .uniT{
-                                           margin-left: 2px;
-                                            border: 2px black solid;
-                                            height: 40%;
-                                            width: 20%;
-                                        
-                                         }
-                                         .card-title{
-                                            text-align: center;
-                                            font-size: 22px;
-                                            margin-left: 15%;
-                                            margin-right: 15%; 
-                                         }
-                                         .card-img-top{
-                                            width: 28%;
-                                            margin-left: 27%;
-                                         }
-                                         .card-text{
-                                            text-align: center;
-                                            font-size: 16px;
-                                            margin-left: 2px;
-                                            margin-right: 1px;
-                                         }
-                                         .parlantes{
-                                            height: auto;
-                                         }
-                                       }
-                                   
-
-                                .piePagina{
-                                    .redes{
-                                        .redesImg{
-                                            height: 22px;
+                            /*contenido*/
+                            .contenido{  
+                                h1{
+                                    text-align: center;
+                                     font-size: 26px;
+                                     margin-top: 35px;
+                                     margin-bottom: 29px;
+                                    }
+                                p{   
+                                     font-size: 15px ;
+                                     margin-left: 68px;
+                                     margin-right: 54px;
+                                     margin-bottom: 22px;
+                                     text-align: center;
+                                     
+                                        strong{
+                                            font-size: 15px;
                                         }
                                     }
-                                }    
-                            
- }
- }
- }
+                                    .contenedorNovedad{
+                 
+                                        width: 10rem;
+                                        display: inline-block;
+                                        margin-left: 46px;
+                                        margin-top: 32px;
+                                        margin-bottom: 54px;
+                                        
+                                        .uniT{
+                                          margin-left: 2px;
+                                           border: 2px black solid;
+                                           height: 40%;
+                                           width: 200px;
+                                       
+                                        }
+                                        .card-title{
+                                           text-align: center;
+                                           font-size: 22px;
+                                           margin-left: 15%;
+                                           margin-right: 15%; 
+                                        }
+                                        .card-img-top{
+                                           width: 58%;
+                                           margin-left: 17%;
+                                           margin-right: 15%;
+                                        }
+                                        .card-text{
+                                          
+                                           font-size: 13px;
+                                           margin-left: 0px;
+                                           margin-right: 1px;
+                                        }
+                                        .parlantes{
+                                           width: 10rem;
+                                           border: 2px black solid;
+                                        }
+                                      }
+                                     }
+                             /*pie depagina*/
+                            .piePagina{
+                                  margin-bottom: 0%;
+                                  width: 100%;
+                            .redesImg{
+                                  width: 20px;
+                                  margin-bottom: 44px; 
+                                    }
+                           .whatsapp{
+                              .whatImg{
+                                 width: 34px;
+                                      }
+                                    }
+                            p{
+                                 font-size: 12px;
+                                 margin-bottom: 0px;
+                            } 
+                                   }        
+    }
+    } 
+   
+
+    
+
+            
+           
+            
+              
