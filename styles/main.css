@@ -220,7 +220,8 @@
       height: 0px;
       display: none; }
     .contenedorTienda .header .link {
-      width: auto; }
+      width: auto;
+      display: block; }
       .contenedorTienda .header .link .btn {
         padding: 2px 9px; }
         .contenedorTienda .header .link .btn button {
@@ -233,7 +234,7 @@
     .contenedorTienda .piePagina {
       height: 99%; }
       .contenedorTienda .piePagina .redesImg {
-        width: 50px; }
+        width: 45px; }
       .contenedorTienda .piePagina .whatsapp {
         bottom: 20px;
         right: 10px; }
@@ -432,32 +433,39 @@
     grid-template-areas: "header" "contenidoPrincipal " "footer";
     /*HEADER*/
     /*PIE DE PAGINA*/ }
-    .contenedorNosotros .header .logo {
-      height: 0px;
-      display: none; }
-    .contenedorNosotros .header .link .btn {
-      padding: 2px 9px; }
-      .contenedorNosotros .header .link .btn button {
-        font-size: 8px;
-        font-weight: 700; }
-    .contenedorNosotros .header .link a {
-      font-size: 7px; }
+    .contenedorNosotros .header {
+      width: 13rem; }
+      .contenedorNosotros .header .logo {
+        height: 0px;
+        display: none; }
+      .contenedorNosotros .header .link {
+        width: auto; }
+        .contenedorNosotros .header .link .btn {
+          padding: 2px 9px; }
+          .contenedorNosotros .header .link .btn button {
+            font-size: 8px;
+            font-weight: 700; }
+        .contenedorNosotros .header .link a {
+          font-size: 7px; }
     .contenedorNosotros .nosotrosMenu {
       grid-area: contenidoPrincipal; }
       .contenedorNosotros .nosotrosMenu h1 {
         font-size: 20px;
-        margin: 22px;
-        margin-left: 32%;
+        margin: 26px;
+        text-align: center;
         font-family: 'Lilita One', cursive; }
       .contenedorNosotros .nosotrosMenu p {
-        padding: 5%;
+        font-size: 16px;
         font-family: 'Share', cursive; }
+        .contenedorNosotros .nosotrosMenu p strong {
+          font-size: 16px; }
       .contenedorNosotros .nosotrosMenu img {
         height: 170px;
-        margin: 8px 18px 45px 45px;
         border: solid 3px black; }
-    .contenedorNosotros .piePagina .redes .redesImg {
-      width: 40px; }
+    .contenedorNosotros .piePagina .redes {
+      height: 50px; }
+      .contenedorNosotros .piePagina .redes .redesImg {
+        width: 40px; }
     .contenedorNosotros .piePagina .whatsapp .whatImg {
       width: 60px; }
     .contenedorNosotros .piePagina p {

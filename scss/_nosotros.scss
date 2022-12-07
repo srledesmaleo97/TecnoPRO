@@ -77,11 +77,13 @@
                              "footer";
                              /*HEADER*/ 
                              .header{
+                                width: 13rem;
                                 .logo{
                                    height: 0px;
                                    display: none;
                                 }
                                 .link{
+                                    width: auto;
                                     .btn{
                                         padding: 2px 9px;
                                         button{
@@ -99,17 +101,20 @@
                                     grid-area: contenidoPrincipal ;
                                     h1{
                                         font-size: $fuenteSecundaria;
-                                        margin: 22px;
-                                        margin-left: 32%;
+                                        margin: 26px;
+                                        text-align: center;
                                         font-family: 'Lilita One', cursive;
                                     }
                                     p{
-                                        padding: 5%;
+                                        font-size: 16px;
                                         font-family: 'Share', cursive;
+                                        strong{
+                                            font-size: 16px;
+                                        }
                                     }
                                     img{
                                         height: 170px;
-                                        margin: 8px 18px 45px 45px;
+                                        
                                         border: solid 3px black;
                                     }
                                     
@@ -118,6 +123,7 @@
                             /*PIE DE PAGINA*/
                             .piePagina{
                                 .redes{
+                                    height: 50px;
                                     .redesImg{
                                         width: 40px;
                                     }
