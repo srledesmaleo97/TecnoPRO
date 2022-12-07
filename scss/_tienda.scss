@@ -79,7 +79,7 @@
                                     .btn{
                                         padding: 2px 9px;
                                         button{
-                                            font-size: 3px;
+                                            font-size: 10px;
                                             font-weight: 700;
                                               }
                                        } 
@@ -88,7 +88,12 @@
                                      }
                                     }
                                    }
-
+                            /*main*/
+                            .tiendaProductos{
+                                .tiendaItem{
+                                    width: 25%;
+                                }
+                            }
                             /*PIE DE PAGINA*/
                             .piePagina{
                                 height: 99%;
@@ -96,7 +101,9 @@
                                     width: 50px;
                                 }
                                 .whatsapp{
-                                    .whatImg{
+                                     bottom: 20px;
+                                     right: 10px;
+                                .whatImg{
                                         width: 54px;
                                     }
                                 }

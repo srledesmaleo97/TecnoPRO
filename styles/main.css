@@ -214,6 +214,7 @@
     grid-template-rows: 0.2fr;
     grid-template-areas: "header" "galeria" "footer";
     /*HEADER*/
+    /*main*/
     /*PIE DE PAGINA*/ }
     .contenedorTienda .header .logo {
       height: 0px;
@@ -223,16 +224,21 @@
       .contenedorTienda .header .link .btn {
         padding: 2px 9px; }
         .contenedorTienda .header .link .btn button {
-          font-size: 3px;
+          font-size: 10px;
           font-weight: 700; }
       .contenedorTienda .header .link a {
         font-size: 7px; }
+    .contenedorTienda .tiendaProductos .tiendaItem {
+      width: 25%; }
     .contenedorTienda .piePagina {
       height: 99%; }
       .contenedorTienda .piePagina .redesImg {
         width: 50px; }
-      .contenedorTienda .piePagina .whatsapp .whatImg {
-        width: 54px; }
+      .contenedorTienda .piePagina .whatsapp {
+        bottom: 20px;
+        right: 10px; }
+        .contenedorTienda .piePagina .whatsapp .whatImg {
+          width: 54px; }
       .contenedorTienda .piePagina p {
         font-size: 12px;
         margin-top: 4%; } }
